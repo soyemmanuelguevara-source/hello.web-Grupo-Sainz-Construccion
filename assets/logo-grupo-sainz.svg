@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 132" role="img" aria-labelledby="title desc">
+  <title id="title">Grupo Sainz Construcci&#243;n</title>
+  <desc id="desc">Logotipo sin fondo de Grupo Sainz Construcci&#243;n</desc>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(8 10)">
+      <path d="M56 0 106 29v58l-50 29L6 87V29L56 0Z" fill="#003366"/>
+      <path d="M56 11 96 34v46l-40 23L16 80V34l40-23Z" stroke="#FF6600" stroke-width="6"/>
+      <path d="M36 77V43h40v12H50v10h22v12H36Z" fill="#FFFFFF"/>
+      <path d="M69 39h23L79 59h13L65 94l9-27H59l10-28Z" fill="#FF6600"/>
+      <path d="M31 88h50" stroke="#CCCCCC" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(140 34)">
+      <text x="0" y="34" font-family="Roboto, Arial, sans-serif" font-size="37" font-weight="900" fill="#003366" letter-spacing=".5">GRUPO SAINZ</text>
+      <text x="1" y="75" font-family="Roboto, Arial, sans-serif" font-size="31" font-weight="700" fill="#FF6600" letter-spacing="1.7">CONSTRUCCI&#211;N</text>
+    </g>
+  </g>
+</svg>

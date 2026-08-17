@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo Sainz Construcci&oacute;n | Mantenimiento, remodelaci&oacute;n y obra</title>
+  <meta name="description" content="Soluciones integrales para hogar, negocio y trabajo: plomer&iacute;a, electricidad, gas, calderas, impermeabilizaci&oacute;n, remodelaciones, cisternas, bombas, energ&iacute;a solar, pintura y alba&ntilde;iler&iacute;a.">
+  <meta name="keywords" content="Grupo Sainz Construcci&oacute;n, plomer&iacute;a, electricidad, gas, impermeabilizaci&oacute;n, remodelaciones, cisternas, bombas hidroneum&aacute;ticas, energ&iacute;a solar, alba&ntilde;iler&iacute;a">
+  <meta property="og:title" content="Grupo Sainz Construcci&oacute;n | Soluciones integrales">
+  <meta property="og:description" content="&iquest;Problemas en tu hogar, negocio o trabajo? Grupo Sainz Construcci&oacute;n los soluciona con personal capacitado y trabajos garantizados por escrito.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader" aria-hidden="true">
+    <img src="assets/logo-grupo-sainz.svg" alt="" class="loader-logo">
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Preparando soluciones...</span>
+  </div>
+
+  <!-- Navbar -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="Grupo Sainz Construcci&oacute;n, inicio">
+          <img src="assets/logo-grupo-sainz.svg" alt="Grupo Sainz Construcci&oacute;n" class="nav-logo-img">
+        </a>
+
+        <nav aria-label="Navegaci&oacute;n principal">
+          <ul class="nav-links">
+            <li><a href="#why">Garant&iacute;as</a></li>
+            <li><a href="#ambientes">Servicios</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#producto">Soluciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Solicitar cotizaci&oacute;n
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir men&uacute;" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Men&uacute; m&oacute;vil">
+      <a href="#why">Garant&iacute;as</a>
+      <a href="#ambientes">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#producto">Soluciones</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Cotizar ahora</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Parallax background image -->
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Soluciones integrales para hogar, negocio y trabajo
+          </div>
+
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>&iquest;Problemas en tu espacio?</span></span>
+            <span class="line"><span>Grupo Sainz</span></span>
+            <span class="line"><span class="accent">los soluciona.</span></span>
+          </h1>
+
+          <p class="hero-sub" id="hero-sub">
+            Atendemos plomer&iacute;a, electricidad, gas, calderas, impermeabilizaci&oacute;n, remodelaciones, cisternas, bombas hidroneum&aacute;ticas, energ&iacute;a solar, pintura y alba&ntilde;iler&iacute;a con respaldo profesional.
+          </p>
+
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Solicitar presupuesto
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-solid fa-screwdriver-wrench" style="font-size:15px; color:var(--gray);"></i>
+              Ver servicios
+            </a>
+          </div>
+
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-file-signature"></i>
+              Presupuesto sin compromiso
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              Garant&iacute;a por escrito
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-credit-card"></i>
+              Tarjeta de cr&eacute;dito y d&eacute;bito
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- Why -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">Por qu&eacute; elegirnos</div>
+            <h2 class="why-quote" id="why-heading">
+              Una soluci&oacute;n bien hecha evita retrabajos, urgencias y gastos innecesarios.
+              <em>Por eso cada trabajo se respalda por escrito.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Grupo Sainz Construcci&oacute;n re&uacute;ne especialidades clave en un solo equipo para resolver necesidades t&eacute;cnicas, correctivas y de mejora en hogares, negocios y espacios de trabajo.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-clipboard-check"></i>
+            </div>
+            <h3>Presupuestos claros</h3>
+            <p>Cotizamos sin compromiso para que tomes decisiones con informaci&oacute;n concreta antes de iniciar.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-helmet-safety"></i>
+            </div>
+            <h3>Personal capacitado</h3>
+            <p>Trabajos realizados por especialistas preparados para atender instalaciones, reparaciones y obra.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+            <h3>Garant&iacute;a por escrito</h3>
+            <p>Cada servicio se entrega con respaldo formal para darte tranquilidad despu&eacute;s de la instalaci&oacute;n o reparaci&oacute;n.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-wallet"></i>
+            </div>
+            <h3>Pago flexible</h3>
+            <p>Aceptamos tarjetas de cr&eacute;dito y d&eacute;bito para facilitar la atenci&oacute;n de tu proyecto.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Ambientes -->
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Servicios principales</div>
+            <h2 class="section-title" id="amb-heading">
+              Todo lo que tu inmueble necesita<br>
+              <span class="gold">en un solo equipo</span>
+            </h2>
+            <p style="color:var(--gray-700); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+              Atendemos reparaciones urgentes, mantenimiento preventivo, remodelaciones y soluciones de eficiencia para agua y energ&iacute;a.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">Servicio integral</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&fm=jpg&q=80&w=1400"
+              alt="T&eacute;cnico reparando instalaci&oacute;n de plomer&iacute;a en un ba&ntilde;o">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-faucet-drip"></i>
+              </div>
+              <h3>Mantenimiento t&eacute;cnico</h3>
+              <p>Plomer&iacute;a, electricidad, gas, calderas, boilers, calentadores y bombas hidroneum&aacute;ticas.</p>
+              <div class="amb-temp">Respuesta profesional para fallas reales</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&fm=jpg&q=80&w=1400"
+              alt="Trabajadores realizando obra y remodelaci&oacute;n en vivienda">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-trowel-bricks"></i>
+              </div>
+              <h3>Obra y remodelaci&oacute;n</h3>
+              <p>Impermeabilizaci&oacute;n, pintura, alba&ntilde;iler&iacute;a, remodelaciones y movimiento de tierras.</p>
+              <div class="amb-temp">Mejoras duraderas para tu inmueble</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&fm=jpg&q=80&w=1400"
+              alt="Vivienda en obra con paneles solares instalados en el techo">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-solar-panel"></i>
+              </div>
+              <h3>Agua y energ&iacute;a</h3>
+              <p>Sistemas de filtraci&oacute;n de agua, limpieza y reparaci&oacute;n de cisternas, sistemas solares y energ&iacute;a renovable.</p>
+              <div class="amb-temp">Eficiencia para uso diario</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Proceso -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">C&oacute;mo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            De la llamada a la entrega,<br>
+            <span class="gold">sin vueltas ni sorpresas</span>
+          </h2>
+          <p>Escuchamos tu necesidad, definimos el alcance y ejecutamos el trabajo con seguimiento claro hasta finalizar.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Diagn&oacute;stico</h3>
+            <p>Cu&eacute;ntanos qu&eacute; ocurre en tu hogar, negocio o trabajo. Revisamos la necesidad y orientamos el siguiente paso.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Presupuesto</h3>
+            <p>Preparamos una cotizaci&oacute;n sin compromiso, alineada al servicio requerido y al alcance del proyecto.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Ejecuci&oacute;n garantizada</h3>
+            <p>Realizamos el trabajo con personal capacitado y entregamos la garant&iacute;a correspondiente por escrito.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Producto estrella -->
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <div class="reveal">
+            <div class="label">Soluciones integrales</div>
+            <h2 class="section-title" id="prod-heading">
+              Resolvemos fallas, mejoras<br>
+              <span class="gold">y proyectos completos</span>
+            </h2>
+            <p class="producto-lead">
+              Un solo contacto para coordinar servicios t&eacute;cnicos, mantenimiento, instalaci&oacute;n, reparaci&oacute;n y obra menor o mayor seg&uacute;n tu necesidad.
+            </p>
+
+            <ul class="feature-rows" aria-label="Servicios de Grupo Sainz Construcci&oacute;n">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-wrench"></i></div>
+                <div>
+                  <h4>Instalaciones y reparaciones</h4>
+                  <p>Plomer&iacute;a, electricidad, gas, boilers, calentadores, calderas y bombas hidroneum&aacute;ticas.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-droplet"></i></div>
+                <div>
+                  <h4>Agua, cisternas y filtraci&oacute;n</h4>
+                  <p>Limpieza, reparaci&oacute;n de cisternas y sistemas de filtraci&oacute;n para mejorar el uso del agua.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-house-chimney"></i></div>
+                <div>
+                  <h4>Remodelaciones y acabados</h4>
+                  <p>Impermeabilizaci&oacute;n, pintura, alba&ntilde;iler&iacute;a y mejoras para hogares, negocios y espacios de trabajo.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-sun"></i></div>
+                <div>
+                  <h4>Energ&iacute;a renovable y movimiento de tierras</h4>
+                  <p>Sistemas solares, soluciones de energ&iacute;a renovable y trabajos de movimiento de tierras.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Datos clave de servicio">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">13</span>
+                <span class="spec-name">Servicios</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">100%</span>
+                <span class="spec-name">Garant&iacute;a</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">2</span>
+                <span class="spec-name">Tel&eacute;fonos</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">2</span>
+                <span class="spec-name">Tarjetas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body"
+                   role="img" aria-label="Herramientas y materiales de construcci&oacute;n listos para servicio">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Presupuesto sin compromiso
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-shield-halved" style="color:var(--gold);"></i>
+                Garantizado por escrito
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats" aria-label="Datos clave">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="13" data-suffix=""
+                 aria-label="13 servicios">0</div>
+            <div class="stat-lbl">Servicios<br>integrales</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="100" data-suffix="%"
+                 aria-label="100 por ciento">0</div>
+            <div class="stat-lbl">Trabajos<br>garantizados</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="2" data-suffix=""
+                 aria-label="2 tel&eacute;fonos">0</div>
+            <div class="stat-lbl">L&iacute;neas de<br>contacto</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="2" data-suffix=""
+                 aria-label="2 opciones de tarjeta">0</div>
+            <div class="stat-lbl">Opciones<br>con tarjeta</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Sectores -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">D&oacute;nde trabajamos</div>
+          <h2 class="section-title" id="sec-heading">
+            Atenci&oacute;n para <span class="gold">cada tipo de espacio</span>
+          </h2>
+          <p>Servicios para resolver problemas y mejorar inmuebles residenciales, comerciales y laborales.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-house sector-icon" aria-hidden="true"></i>
+            <h3>Hogares</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-store sector-icon" aria-hidden="true"></i>
+            <h3>Negocios</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-briefcase sector-icon" aria-hidden="true"></i>
+            <h3>Trabajo</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-building sector-icon" aria-hidden="true"></i>
+            <h3>Oficinas</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-person-digging sector-icon" aria-hidden="true"></i>
+            <h3>Obras</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Cotiza tu servicio<br>
+            <span class="gold">sin compromiso</span>
+          </h2>
+          <p>Comp&aacute;rtenos qu&eacute; necesitas y continuamos la conversaci&oacute;n por WhatsApp.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <div class="contact-info">
+            <h3>Atenci&oacute;n directa</h3>
+            <p class="ci-sub">Con gusto te ayudamos a resolver problemas en tu hogar, negocio o trabajo.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Tel&eacute;fonos</h4>
+                  <p>
+                    <a href="tel:7771429178">777 142 9178</a><br>
+                    <a href="tel:5581800689">558 180 0689</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Escr&iacute;benos para solicitar tu presupuesto.</p>
+                  <a href="https://wa.me/527771429178" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat
+                  </a>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Facebook</h4>
+                  <p>Visita nuestra p&aacute;gina y mantente en contacto.</p>
+                  <a href="https://facebook.com/construcciongruposainz" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    facebook.com/construcciongruposainz
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrap">
+            <h3>Solicitar cotizaci&oacute;n</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">&iquest;Qu&eacute; necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Cotizaci&oacute;n general</option>
+                    <option>Plomer&iacute;a</option>
+                    <option>Electricidad</option>
+                    <option>Instalaci&oacute;n de gas</option>
+                    <option>Calderas, boilers o calentadores</option>
+                    <option>Impermeabilizaci&oacute;n</option>
+                    <option>Remodelaciones</option>
+                    <option>Limpieza o reparaci&oacute;n de cisternas</option>
+                    <option>Sistemas de filtraci&oacute;n de agua</option>
+                    <option>Bombas hidroneum&aacute;ticas</option>
+                    <option>Sistemas solares y energ&iacute;a renovable</option>
+                    <option>Movimiento de tierras</option>
+                    <option>Pintura</option>
+                    <option>Alba&ntilde;iler&iacute;a</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle del proyecto</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Describe el problema, ubicaci&oacute;n del servicio o detalles relevantes."></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar a WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar ser&aacute;s redirigido a WhatsApp para continuar la conversaci&oacute;n.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#hero" class="footer-logo" aria-label="Grupo Sainz Construcci&oacute;n, inicio">
+          <img src="assets/logo-grupo-sainz.svg" alt="Grupo Sainz Construcci&oacute;n">
+        </a>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Grupo Sainz Construcci&oacute;n. Todos los derechos reservados.
+        </p>
+        <div class="footer-socials">
+          <a href="https://facebook.com/construcciongruposainz"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://wa.me/527771429178" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="tel:7771429178"
+             class="footer-soc" aria-label="Llamar por tel&eacute;fono">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/527771429178?text=Hola%2C%20visit%C3%A9%20su%20sitio%20web%20y%20me%20gustar%C3%ADa%20solicitar%20un%20presupuesto."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
